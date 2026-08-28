@@ -1,0 +1,211 @@
+case_id,transaction_ids,description
+EXACT_1_TO_1,PAY2001;BANK3001;JNL4001,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2002;BANK3002;JNL4002,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2003;BANK3003;JNL4003,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2004;BANK3004;JNL4004,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2005;BANK3005;JNL4005,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2006;BANK3006;JNL4006,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2007;BANK3007;JNL4007,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2008;BANK3008;JNL4008,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2009;BANK3009;JNL4009,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2010;BANK3010;JNL4010,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2011;BANK3011;JNL4011,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2012;BANK3012;JNL4012,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2013;BANK3013;JNL4013,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2014;BANK3014;JNL4014,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2015;BANK3015;JNL4015,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2016;BANK3016;JNL4016,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2017;BANK3017;JNL4017,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2018;BANK3018;JNL4018,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2019;BANK3019;JNL4019,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2020;BANK3020;JNL4020,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2021;BANK3021;JNL4021,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2022;BANK3022;JNL4022,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2023;BANK3023;JNL4023,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2024;BANK3024;JNL4024,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2025;BANK3025;JNL4025,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2026;BANK3026;JNL4026,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2027;BANK3027;JNL4027,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2028;BANK3028;JNL4028,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2029;BANK3029;JNL4029,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2030;BANK3030;JNL4030,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2031;BANK3031;JNL4031,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2032;BANK3032;JNL4032,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2033;BANK3033;JNL4033,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2034;BANK3034;JNL4034,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2035;BANK3035;JNL4035,"Exact reference, amount, currency and expected settlement timing."
+EXACT_1_TO_1,PAY2036;BANK3036;JNL4036,"Exact reference, amount, currency and expected settlement timing."
+FEE_AWARE,PAY2037;BANK3037;JNL4037,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2038;BANK3038;JNL4038,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2039;BANK3039;JNL4039,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2040;BANK3040;JNL4040,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2041;BANK3041;JNL4041,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2042;BANK3042;JNL4042,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2043;BANK3043;JNL4043,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2044;BANK3044;JNL4044,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2045;BANK3045;JNL4045,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2046;BANK3046;JNL4046,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2047;BANK3047;JNL4047,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2048;BANK3048;JNL4048,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2049;BANK3049;JNL4049,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2050;BANK3050;JNL4050,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2051;BANK3051;JNL4051,Bank settles net of processor fee; ERP records gross receivable.
+FEE_AWARE,PAY2052;BANK3052;JNL4052,Bank settles net of processor fee; ERP records gross receivable.
+TIMING_GAP,PAY2053;BANK3053,Settlement arrives three days after payment; valid within configured tolerance.
+TIMING_GAP,PAY2054;BANK3054,Settlement arrives three days after payment; valid within configured tolerance.
+TIMING_GAP,PAY2055;BANK3055,Settlement arrives three days after payment; valid within configured tolerance.
+TIMING_GAP,PAY2056;BANK3056,Settlement arrives three days after payment; valid within configured tolerance.
+TIMING_GAP,PAY2057;BANK3057,Settlement arrives three days after payment; valid within configured tolerance.
+TIMING_GAP,PAY2058;BANK3058,Settlement arrives three days after payment; valid within configured tolerance.
+TIMING_GAP,PAY2059;BANK3059,Settlement arrives three days after payment; valid within configured tolerance.
+TIMING_GAP,PAY2060;BANK3060,Settlement arrives three days after payment; valid within configured tolerance.
+TIMING_GAP,PAY2061;BANK3061,Settlement arrives three days after payment; valid within configured tolerance.
+TIMING_GAP,PAY2062;BANK3062,Settlement arrives three days after payment; valid within configured tolerance.
+TIMING_GAP,PAY2063;BANK3063,Settlement arrives three days after payment; valid within configured tolerance.
+TIMING_GAP,PAY2064;BANK3064,Settlement arrives three days after payment; valid within configured tolerance.
+FUZZY_NAME_DRIFT,PAY2065;BANK3065,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+FUZZY_NAME_DRIFT,PAY2066;BANK3066,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+FUZZY_NAME_DRIFT,PAY2067;BANK3067,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+FUZZY_NAME_DRIFT,PAY2068;BANK3068,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+FUZZY_NAME_DRIFT,PAY2069;BANK3069,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+FUZZY_NAME_DRIFT,PAY2070;BANK3070,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+FUZZY_NAME_DRIFT,PAY2071;BANK3071,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+FUZZY_NAME_DRIFT,PAY2072;BANK3072,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+FUZZY_NAME_DRIFT,PAY2073;BANK3073,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+FUZZY_NAME_DRIFT,PAY2074;BANK3074,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+FUZZY_NAME_DRIFT,PAY2075;BANK3075,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+FUZZY_NAME_DRIFT,PAY2076;BANK3076,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+FUZZY_NAME_DRIFT,PAY2077;BANK3077,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+FUZZY_NAME_DRIFT,PAY2078;BANK3078,"No shared reference; counterparty/description differs by abbreviation, typo or formatting."
+SEMANTIC_MATCH,PAY2079;BANK3079,Different wording requires semantic interpretation; amount and timing remain consistent.
+SEMANTIC_MATCH,PAY2080;BANK3080,Different wording requires semantic interpretation; amount and timing remain consistent.
+SEMANTIC_MATCH,PAY2081;BANK3081,Different wording requires semantic interpretation; amount and timing remain consistent.
+SEMANTIC_MATCH,PAY2082;BANK3082,Different wording requires semantic interpretation; amount and timing remain consistent.
+SEMANTIC_MATCH,PAY2083;BANK3083,Different wording requires semantic interpretation; amount and timing remain consistent.
+SEMANTIC_MATCH,PAY2084;BANK3084,Different wording requires semantic interpretation; amount and timing remain consistent.
+SEMANTIC_MATCH,PAY2085;BANK3085,Different wording requires semantic interpretation; amount and timing remain consistent.
+SEMANTIC_MATCH,PAY2086;BANK3086,Different wording requires semantic interpretation; amount and timing remain consistent.
+MANY_TO_ONE,PAY2087;PAY2088;PAY2089;PAY2090;BANK3087;JNL4053,Four processor payments aggregate into one bank settlement and one ERP settlement journal.
+MANY_TO_ONE,PAY2091;PAY2092;PAY2093;PAY2094;BANK3088;JNL4054,Four processor payments aggregate into one bank settlement and one ERP settlement journal.
+MANY_TO_ONE,PAY2095;PAY2096;PAY2097;PAY2098;BANK3089;JNL4055,Four processor payments aggregate into one bank settlement and one ERP settlement journal.
+MANY_TO_ONE,PAY2099;PAY2100;PAY2101;PAY2102;BANK3090;JNL4056,Four processor payments aggregate into one bank settlement and one ERP settlement journal.
+MANY_TO_ONE,PAY2103;PAY2104;PAY2105;PAY2106;BANK3091;JNL4057,Four processor payments aggregate into one bank settlement and one ERP settlement journal.
+MANY_TO_ONE,PAY2107;PAY2108;PAY2109;PAY2110;BANK3092;JNL4058,Four processor payments aggregate into one bank settlement and one ERP settlement journal.
+MANY_TO_ONE,PAY2111;PAY2112;PAY2113;PAY2114;BANK3093;JNL4059,Four processor payments aggregate into one bank settlement and one ERP settlement journal.
+ONE_TO_MANY_FULL,JNL4060;BANK3094;BANK3095,One ERP invoice is fully settled by two bank credits.
+ONE_TO_MANY_FULL,JNL4061;BANK3096;BANK3097,One ERP invoice is fully settled by two bank credits.
+ONE_TO_MANY_FULL,JNL4062;BANK3098;BANK3099,One ERP invoice is fully settled by two bank credits.
+ONE_TO_MANY_FULL,JNL4063;BANK3100;BANK3101,One ERP invoice is fully settled by two bank credits.
+ONE_TO_MANY_FULL,JNL4064;BANK3102;BANK3103,One ERP invoice is fully settled by two bank credits.
+PARTIAL_PAYMENT,JNL4065;BANK3104;BANK3105,ERP invoice exceeds total received bank credits; should remain partially paid.
+PARTIAL_PAYMENT,JNL4066;BANK3106;BANK3107,ERP invoice exceeds total received bank credits; should remain partially paid.
+PARTIAL_PAYMENT,JNL4067;BANK3108;BANK3109,ERP invoice exceeds total received bank credits; should remain partially paid.
+PARTIAL_PAYMENT,JNL4068;BANK3110;BANK3111,ERP invoice exceeds total received bank credits; should remain partially paid.
+OVERPAID,JNL4069;BANK3112;BANK3113,Bank credits exceed ERP invoice amount.
+OVERPAID,JNL4070;BANK3114;BANK3115,Bank credits exceed ERP invoice amount.
+OVERPAID,JNL4071;BANK3116;BANK3117,Bank credits exceed ERP invoice amount.
+OVERPAID,JNL4072;BANK3118;BANK3119,Bank credits exceed ERP invoice amount.
+AMOUNT_MISMATCH,PAY2115;BANK3120,Reference is plausible but bank amount differs beyond tolerance with no explainable fee/refund.
+AMOUNT_MISMATCH,PAY2116;BANK3121,Reference is plausible but bank amount differs beyond tolerance with no explainable fee/refund.
+AMOUNT_MISMATCH,PAY2117;BANK3122,Reference is plausible but bank amount differs beyond tolerance with no explainable fee/refund.
+AMOUNT_MISMATCH,PAY2118;BANK3123,Reference is plausible but bank amount differs beyond tolerance with no explainable fee/refund.
+AMOUNT_MISMATCH,PAY2119;BANK3124,Reference is plausible but bank amount differs beyond tolerance with no explainable fee/refund.
+AMOUNT_MISMATCH,PAY2120;BANK3125,Reference is plausible but bank amount differs beyond tolerance with no explainable fee/refund.
+AMOUNT_MISMATCH,PAY2121;BANK3126,Reference is plausible but bank amount differs beyond tolerance with no explainable fee/refund.
+AMOUNT_MISMATCH,PAY2122;BANK3127,Reference is plausible but bank amount differs beyond tolerance with no explainable fee/refund.
+AMOUNT_MISMATCH,PAY2123;BANK3128,Reference is plausible but bank amount differs beyond tolerance with no explainable fee/refund.
+AMOUNT_MISMATCH,PAY2124;BANK3129,Reference is plausible but bank amount differs beyond tolerance with no explainable fee/refund.
+MISSING_BANK,PAY2125,Captured processor payment has no corresponding bank settlement.
+MISSING_BANK,PAY2126,Captured processor payment has no corresponding bank settlement.
+MISSING_BANK,PAY2127,Captured processor payment has no corresponding bank settlement.
+MISSING_BANK,PAY2128,Captured processor payment has no corresponding bank settlement.
+MISSING_BANK,PAY2129,Captured processor payment has no corresponding bank settlement.
+MISSING_BANK,PAY2130,Captured processor payment has no corresponding bank settlement.
+MISSING_BANK,PAY2131,Captured processor payment has no corresponding bank settlement.
+MISSING_BANK,PAY2132,Captured processor payment has no corresponding bank settlement.
+UNIDENTIFIED_CASH,BANK3130,Bank credit has no processor or ERP counterpart.
+UNIDENTIFIED_CASH,BANK3131,Bank credit has no processor or ERP counterpart.
+UNIDENTIFIED_CASH,BANK3132,Bank credit has no processor or ERP counterpart.
+UNIDENTIFIED_CASH,BANK3133,Bank credit has no processor or ERP counterpart.
+UNIDENTIFIED_CASH,BANK3134,Bank credit has no processor or ERP counterpart.
+UNIDENTIFIED_CASH,BANK3135,Bank credit has no processor or ERP counterpart.
+UNIDENTIFIED_CASH,BANK3136,Bank credit has no processor or ERP counterpart.
+UNIDENTIFIED_CASH,BANK3137,Bank credit has no processor or ERP counterpart.
+DUPLICATE_CANDIDATES,PAY2133;BANK3138;BANK3139,Two equally plausible bank candidates exist; engine must not consume both.
+DUPLICATE_CANDIDATES,PAY2134;BANK3140;BANK3141,Two equally plausible bank candidates exist; engine must not consume both.
+DUPLICATE_CANDIDATES,PAY2135;BANK3142;BANK3143,Two equally plausible bank candidates exist; engine must not consume both.
+DUPLICATE_CANDIDATES,PAY2136;BANK3144;BANK3145,Two equally plausible bank candidates exist; engine must not consume both.
+DUPLICATE_CANDIDATES,PAY2137;BANK3146;BANK3147,Two equally plausible bank candidates exist; engine must not consume both.
+DUPLICATE_CANDIDATES,PAY2138;BANK3148;BANK3149,Two equally plausible bank candidates exist; engine must not consume both.
+REFUND_MATCHED,PAY2139;BANK3150;BANK3151,Processor refund has matching bank debit plus settlement.
+REFUND_MATCHED,PAY2140;BANK3152;BANK3153,Processor refund has matching bank debit plus settlement.
+REFUND_MATCHED,PAY2141;BANK3154;BANK3155,Processor refund has matching bank debit plus settlement.
+REFUND_MATCHED,PAY2142;BANK3156;BANK3157,Processor refund has matching bank debit plus settlement.
+REFUND_MATCHED,PAY2143;BANK3158;BANK3159,Processor refund has matching bank debit plus settlement.
+REFUND_MATCHED,PAY2144;BANK3160;BANK3161,Processor refund has matching bank debit plus settlement.
+REFUND_MISSING,PAY2145;BANK3162,Processor reports refund but bank refund debit is absent.
+REFUND_MISSING,PAY2146;BANK3163,Processor reports refund but bank refund debit is absent.
+REFUND_MISSING,PAY2147;BANK3164,Processor reports refund but bank refund debit is absent.
+REFUND_MISSING,PAY2148;BANK3165,Processor reports refund but bank refund debit is absent.
+REFUND_DUPLICATE,PAY2149;BANK3166;BANK3167;BANK3168,Two bank refund debits appear for one processor refund.
+REFUND_DUPLICATE,PAY2150;BANK3169;BANK3170;BANK3171,Two bank refund debits appear for one processor refund.
+REFUND_DUPLICATE,PAY2151;BANK3172;BANK3173;BANK3174,Two bank refund debits appear for one processor refund.
+MANUAL_ENTRY_MANUAL_AMOUNT_ENTRY_ERROR,PAY2152;BANK3175,Synthetic manual-entry error: manual amount entry error.
+MANUAL_ENTRY_MANUAL_DATE_ENTRY_ERROR,PAY2153;BANK3176,Synthetic manual-entry error: manual date entry error.
+MANUAL_ENTRY_MANUAL_REFERENCE_TYPO,PAY2154;BANK3177,Synthetic manual-entry error: manual reference typo.
+MANUAL_ENTRY_MANUAL_COUNTERPARTY_TYPO,PAY2155;BANK3178,Synthetic manual-entry error: manual counterparty typo.
+MANUAL_ENTRY_MANUAL_DUPLICATE_ENTRY,PAY2156;BANK3179,Synthetic manual-entry error: manual duplicate entry.
+MANUAL_ENTRY_MANUAL_MISSING_REFERENCE,PAY2157;BANK3180,Synthetic manual-entry error: manual missing reference.
+MANUAL_DUPLICATE_ENTRY,PAY2158;BANK3181;BANK3182,Manual entry created the same bank transaction twice.
+CURRENCY_MISMATCH,PAY2159;BANK3183,Amount/reference look plausible but currencies conflict; must be rejected.
+CURRENCY_MISMATCH,PAY2160;BANK3184,Amount/reference look plausible but currencies conflict; must be rejected.
+CURRENCY_MISMATCH,PAY2161;BANK3185,Amount/reference look plausible but currencies conflict; must be rejected.
+CURRENCY_MISMATCH,PAY2162;BANK3186,Amount/reference look plausible but currencies conflict; must be rejected.
+ERP_ONLY,JNL4073,ERP receivable has no bank/processor counterpart.
+ERP_ONLY,JNL4074,ERP receivable has no bank/processor counterpart.
+ERP_ONLY,JNL4075,ERP receivable has no bank/processor counterpart.
+ERP_ONLY,JNL4076,ERP receivable has no bank/processor counterpart.
+ERP_ONLY,JNL4077,ERP receivable has no bank/processor counterpart.
+DIRECT_BANK_ERP,BANK3187;JNL4078,Direct bank-to-ERP receipt with no processor record; demonstrates multi-source flexibility.
+DIRECT_BANK_ERP,BANK3188;JNL4079,Direct bank-to-ERP receipt with no processor record; demonstrates multi-source flexibility.
+DIRECT_BANK_ERP,BANK3189;JNL4080,Direct bank-to-ERP receipt with no processor record; demonstrates multi-source flexibility.
+DIRECT_BANK_ERP,BANK3190;JNL4081,Direct bank-to-ERP receipt with no processor record; demonstrates multi-source flexibility.
+DIRECT_BANK_ERP,BANK3191;JNL4082,Direct bank-to-ERP receipt with no processor record; demonstrates multi-source flexibility.
+LLM_PARAPHRASE_PLUS_ROUNDING,PAY2163;BANK3192,Bank narration is fully paraphrased AND amount is rounded to the nearest 10; requires joint semantic + tolerance reasoning beyond simple fuzzy/threshold rules.
+LLM_PARAPHRASE_PLUS_ROUNDING,PAY2164;BANK3193,Bank narration is fully paraphrased AND amount is rounded to the nearest 10; requires joint semantic + tolerance reasoning beyond simple fuzzy/threshold rules.
+LLM_PARAPHRASE_PLUS_ROUNDING,PAY2165;BANK3194,Bank narration is fully paraphrased AND amount is rounded to the nearest 10; requires joint semantic + tolerance reasoning beyond simple fuzzy/threshold rules.
+LLM_PARAPHRASE_PLUS_ROUNDING,PAY2166;BANK3195,Bank narration is fully paraphrased AND amount is rounded to the nearest 10; requires joint semantic + tolerance reasoning beyond simple fuzzy/threshold rules.
+LLM_PARAPHRASE_PLUS_ROUNDING,PAY2167;BANK3196,Bank narration is fully paraphrased AND amount is rounded to the nearest 10; requires joint semantic + tolerance reasoning beyond simple fuzzy/threshold rules.
+LLM_PARAPHRASE_PLUS_ROUNDING,PAY2168;BANK3197,Bank narration is fully paraphrased AND amount is rounded to the nearest 10; requires joint semantic + tolerance reasoning beyond simple fuzzy/threshold rules.
+LLM_PARAPHRASE_PLUS_ROUNDING,PAY2169;BANK3198,Bank narration is fully paraphrased AND amount is rounded to the nearest 10; requires joint semantic + tolerance reasoning beyond simple fuzzy/threshold rules.
+LLM_PARAPHRASE_PLUS_ROUNDING,PAY2170;BANK3199,Bank narration is fully paraphrased AND amount is rounded to the nearest 10; requires joint semantic + tolerance reasoning beyond simple fuzzy/threshold rules.
+LLM_MULTI_CANDIDATE_DISAMBIGUATION,PAY2171;BANK3200;BANK3201,"Two structurally similar bank rows exist for the same vendor; only narrative context (installment reference, near-exact amount) identifies the true match — the decoy must be rejected, not both accepted."
+LLM_MULTI_CANDIDATE_DISAMBIGUATION,PAY2172;BANK3202;BANK3203,"Two structurally similar bank rows exist for the same vendor; only narrative context (installment reference, near-exact amount) identifies the true match — the decoy must be rejected, not both accepted."
+LLM_MULTI_CANDIDATE_DISAMBIGUATION,PAY2173;BANK3204;BANK3205,"Two structurally similar bank rows exist for the same vendor; only narrative context (installment reference, near-exact amount) identifies the true match — the decoy must be rejected, not both accepted."
+LLM_MULTI_CANDIDATE_DISAMBIGUATION,PAY2174;BANK3206;BANK3207,"Two structurally similar bank rows exist for the same vendor; only narrative context (installment reference, near-exact amount) identifies the true match — the decoy must be rejected, not both accepted."
+LLM_MULTI_CANDIDATE_DISAMBIGUATION,PAY2175;BANK3208;BANK3209,"Two structurally similar bank rows exist for the same vendor; only narrative context (installment reference, near-exact amount) identifies the true match — the decoy must be rejected, not both accepted."
+LLM_MULTI_CANDIDATE_DISAMBIGUATION,PAY2176;BANK3210;BANK3211,"Two structurally similar bank rows exist for the same vendor; only narrative context (installment reference, near-exact amount) identifies the true match — the decoy must be rejected, not both accepted."
+LLM_MULTI_CANDIDATE_DISAMBIGUATION,PAY2177;BANK3212;BANK3213,"Two structurally similar bank rows exist for the same vendor; only narrative context (installment reference, near-exact amount) identifies the true match — the decoy must be rejected, not both accepted."
+LLM_INDIRECT_REFERENCE,BANK3214;JNL4083,"Bank narration cites an internal PO/project code rather than the invoice id; linking to the ERP receivable requires reading the counterparty mention inside free text, not a reference-field match."
+LLM_INDIRECT_REFERENCE,BANK3215;JNL4084,"Bank narration cites an internal PO/project code rather than the invoice id; linking to the ERP receivable requires reading the counterparty mention inside free text, not a reference-field match."
+LLM_INDIRECT_REFERENCE,BANK3216;JNL4085,"Bank narration cites an internal PO/project code rather than the invoice id; linking to the ERP receivable requires reading the counterparty mention inside free text, not a reference-field match."
+LLM_INDIRECT_REFERENCE,BANK3217;JNL4086,"Bank narration cites an internal PO/project code rather than the invoice id; linking to the ERP receivable requires reading the counterparty mention inside free text, not a reference-field match."
+LLM_INDIRECT_REFERENCE,BANK3218;JNL4087,"Bank narration cites an internal PO/project code rather than the invoice id; linking to the ERP receivable requires reading the counterparty mention inside free text, not a reference-field match."
+LLM_INDIRECT_REFERENCE,BANK3219;JNL4088,"Bank narration cites an internal PO/project code rather than the invoice id; linking to the ERP receivable requires reading the counterparty mention inside free text, not a reference-field match."
+LLM_INDIRECT_REFERENCE,BANK3220;JNL4089,"Bank narration cites an internal PO/project code rather than the invoice id; linking to the ERP receivable requires reading the counterparty mention inside free text, not a reference-field match."
+LLM_NOISY_OCR_TEXT,PAY2178;BANK3221,"Bank description simulates garbled/abbreviated statement text (dropped vowels, truncated tokens); confident matching requires language-model-level text normalization, not simple string distance."
+LLM_NOISY_OCR_TEXT,PAY2179;BANK3222,"Bank description simulates garbled/abbreviated statement text (dropped vowels, truncated tokens); confident matching requires language-model-level text normalization, not simple string distance."
+LLM_NOISY_OCR_TEXT,PAY2180;BANK3223,"Bank description simulates garbled/abbreviated statement text (dropped vowels, truncated tokens); confident matching requires language-model-level text normalization, not simple string distance."
+LLM_NOISY_OCR_TEXT,PAY2181;BANK3224,"Bank description simulates garbled/abbreviated statement text (dropped vowels, truncated tokens); confident matching requires language-model-level text normalization, not simple string distance."
+LLM_NOISY_OCR_TEXT,PAY2182;BANK3225,"Bank description simulates garbled/abbreviated statement text (dropped vowels, truncated tokens); confident matching requires language-model-level text normalization, not simple string distance."
+LLM_NOISY_OCR_TEXT,PAY2183;BANK3226,"Bank description simulates garbled/abbreviated statement text (dropped vowels, truncated tokens); confident matching requires language-model-level text normalization, not simple string distance."
+LLM_CROSS_FIELD_ARITHMETIC,PAY2184;BANK3227,"Bank amount differs from the processor net amount by a non-standard, narration-only deduction (TDS/chargeback/discount/penalty) not captured in any structured fee field; requires reading the description to justify the delta before accepting the match."
+LLM_CROSS_FIELD_ARITHMETIC,PAY2185;BANK3228,"Bank amount differs from the processor net amount by a non-standard, narration-only deduction (TDS/chargeback/discount/penalty) not captured in any structured fee field; requires reading the description to justify the delta before accepting the match."
+LLM_CROSS_FIELD_ARITHMETIC,PAY2186;BANK3229,"Bank amount differs from the processor net amount by a non-standard, narration-only deduction (TDS/chargeback/discount/penalty) not captured in any structured fee field; requires reading the description to justify the delta before accepting the match."
+LLM_CROSS_FIELD_ARITHMETIC,PAY2187;BANK3230,"Bank amount differs from the processor net amount by a non-standard, narration-only deduction (TDS/chargeback/discount/penalty) not captured in any structured fee field; requires reading the description to justify the delta before accepting the match."
+LLM_CROSS_FIELD_ARITHMETIC,PAY2188;BANK3231,"Bank amount differs from the processor net amount by a non-standard, narration-only deduction (TDS/chargeback/discount/penalty) not captured in any structured fee field; requires reading the description to justify the delta before accepting the match."
+LLM_CROSS_FIELD_ARITHMETIC,PAY2189;BANK3232,"Bank amount differs from the processor net amount by a non-standard, narration-only deduction (TDS/chargeback/discount/penalty) not captured in any structured fee field; requires reading the description to justify the delta before accepting the match."
+LLM_AMBIGUOUS_MANY_TO_ONE,PAY2190;PAY2191;PAY2192;BANK3233,"Settlement narration lists constituent payment references out of order inside free text rather than a clean delimited field; correctly attributing all payments requires parsing the sentence, not splitting on a delimiter."
+LLM_AMBIGUOUS_MANY_TO_ONE,PAY2193;PAY2194;PAY2195;BANK3234,"Settlement narration lists constituent payment references out of order inside free text rather than a clean delimited field; correctly attributing all payments requires parsing the sentence, not splitting on a delimiter."
+LLM_AMBIGUOUS_MANY_TO_ONE,PAY2196;PAY2197;PAY2198;BANK3235,"Settlement narration lists constituent payment references out of order inside free text rather than a clean delimited field; correctly attributing all payments requires parsing the sentence, not splitting on a delimiter."
+LLM_AMBIGUOUS_MANY_TO_ONE,PAY2199;PAY2200;PAY2201;BANK3236,"Settlement narration lists constituent payment references out of order inside free text rather than a clean delimited field; correctly attributing all payments requires parsing the sentence, not splitting on a delimiter."
