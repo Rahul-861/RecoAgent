@@ -159,3 +159,176 @@ Writes a before/after repeatability and accuracy report to `backend/reports/`.
 - **Explainable by default.** Every match or exception carries structured evidence, not just a confidence number.
 - **Reproducible.** Same input + same configuration + same versions → same outcome, every time.
 - **Honest about uncertainty.** The system prefers an explicit `AMBIGUOUS`/`UNMATCHED`/`UNCLASSIFIABLE` result over an unjustified guess — including in the cash forecast.
+
+
+## Project Architecture
+
+ReconAgent follows a **deterministic-first, AI-assisted, human-in-the-loop architecture**. The system progressively processes financial records through ingestion, normalization, validation, reconciliation, exception handling, memory, audit, and forecasting layers.
+
+```mermaid
+flowchart TB
+
+    USER[Finance User]
+    FE[React + Vite Dashboard]
+
+    BANK[Bank CSV]
+    PROC[Payment Processor CSV]
+    ERP[ERP / Ledger CSV]
+
+    API[FastAPI Backend]
+
+    ING[Multi-Source Ingestion]
+    NORM[Normalization & Canonical Schema]
+    VALID[Validation & Data Quality]
+
+    PIPE[Staged Reconciliation Pipeline]
+
+    R1[Deterministic Rules]
+    R2[Settlement & Relationship Matching]
+    R3[Fuzzy & Semantic Matching]
+    R4[Duplicate / Constraint Checks]
+    R5[AI Adjudication]
+
+    DEC[Decision Engine]
+
+    EX[Exception Management]
+    HUMAN[Human Review]
+
+    MEM[Reconciliation Memory]
+    AUDIT[Append-Only Audit Trail]
+
+    GRAPH[Financial Event Graph]
+    FORECAST[Forward Cash Forecaster]
+    ACC[Accuracy & Repeatability]
+
+    DB[(SQLite Database)]
+
+    GROQ[Groq]
+    GEMINI[Gemini Failover]
+
+    USER --> FE
+    FE --> API
+
+    BANK --> API
+    PROC --> API
+    ERP --> API
+
+    API --> ING
+    ING --> NORM
+    NORM --> VALID
+    VALID --> PIPE
+
+    PIPE --> R1
+    R1 --> R2
+    R2 --> R3
+    R3 --> R4
+    R4 --> R5
+
+    R5 -. Ambiguous cases .-> GROQ
+    GROQ -. Failover .-> GEMINI
+
+    R5 --> DEC
+    DEC --> EX
+
+    EX --> HUMAN
+    HUMAN --> MEM
+    MEM --> PIPE
+
+    DEC --> DB
+    EX --> DB
+    MEM --> DB
+    AUDIT --> DB
+
+    DB --> AUDIT
+    DB --> GRAPH
+    DB --> FORECAST
+    DB --> ACC
+
+    GRAPH --> FE
+    FORECAST --> FE
+    EX --> FE
+    AUDIT --> FE
+    MEM --> FE
+    ACC --> FE
+```
+
+### Architecture Layers
+
+| Layer                       | Responsibility                                                                                                                                            |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Frontend**                | React + Vite dashboard for uploading data, monitoring reconciliation, reviewing exceptions, exploring memory, audit trails, money flow, and cash outlook. |
+| **API Layer**               | FastAPI endpoints that connect the dashboard with the reconciliation and analysis services.                                                               |
+| **Ingestion Layer**         | Accepts Bank, Payment Processor, and ERP/Ledger CSVs while preserving the original raw records.                                                           |
+| **Normalization Layer**     | Converts different source formats and column names into a common canonical transaction schema.                                                            |
+| **Validation Layer**        | Validates financial fields, relationships, currencies, dates, amounts, and data consistency before matching.                                              |
+| **Reconciliation Pipeline** | Progressively resolves transactions using deterministic rules, relationship matching, fuzzy/semantic matching, duplicate protection, and AI adjudication. |
+| **AI Layer**                | Groq performs last-mile ambiguity resolution, with Gemini available as failover. AI cannot override hard financial constraints.                           |
+| **Exception Layer**         | Converts unresolved or unsafe cases into categorized, severity-rated exceptions with a complete lifecycle.                                                |
+| **Human Review**            | Allows reviewers to resolve, reject, or escalate genuine ambiguity instead of forcing an unsafe match.                                                    |
+| **Memory Layer**            | Stores human-approved mappings and learned rules so previously resolved patterns can be reused in future batches.                                         |
+| **Audit Layer**             | Maintains an append-only record of decisions, evidence, rules, versions, candidates, and AI provenance.                                                   |
+| **Event Graph**             | Represents the financial chain as **Order → Payment → Settlement → Bank → ERP**.                                                                          |
+| **Forecast Layer**          | Generates the Forward Cash Forecast using confirmed matches, observed settlement lag, and open exceptions.                                                |
+| **Accuracy Layer**          | Measures precision, recall, F1, false-match rate, confidence calibration, and repeatability against ground truth.                                         |
+| **Database**                | Persists batches, transactions, reconciliation decisions, exceptions, memory, audit information, and forecast data.                                       |
+
+### Reconciliation Decision Flow
+
+```text
+                 Source Data
+                     │
+                     ▼
+              Ingestion & Schema
+                     │
+                     ▼
+             Normalize & Validate
+                     │
+                     ▼
+        ┌───────────────────────────┐
+        │  Staged Reconciliation    │
+        │                           │
+        │  1. Deterministic Rules   │
+        │  2. Settlements           │
+        │  3. Fuzzy / Semantic      │
+        │  4. Duplicate Checks      │
+        │  5. AI Adjudication       │
+        └─────────────┬─────────────┘
+                      │
+             ┌────────┴────────┐
+             ▼                 ▼
+        High Confidence      Ambiguous
+             │                 │
+             ▼                 ▼
+          MATCH          Human Review
+                               │
+                         ┌─────┴─────┐
+                         ▼           ▼
+                      Resolve     Reject /
+                         │        Escalate
+                         ▼
+                 Reconciliation
+                     Memory
+                         │
+                         ▼
+                  Future Batches
+```
+
+### Data and Intelligence Flow
+
+After reconciliation, the persisted results feed multiple intelligence layers:
+
+```text
+                    Reconciled Results
+                           │
+          ┌────────────────┼────────────────┐
+          ▼                ▼                ▼
+     Audit Trail      Event Graph      Cash Forecast
+          │                │                │
+          ▼                ▼                ▼
+     Explainability     Money Flow      Cash Position
+                           │
+                           ▼
+                       Dashboard
+```
+
+This architecture ensures that **reconciliation, exception handling, memory, auditability, financial flow analysis, and cash forecasting are connected through the same persisted financial decisions**, rather than operating as isolated dashboard features.
